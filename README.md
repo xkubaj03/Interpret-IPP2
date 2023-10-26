@@ -3,6 +3,15 @@ Jméno a příjmení: Josef Kuba
 
 Login: xkubaj03
 
+## Použití
+--help výpis nápovědy
+
+--source=file vstupní soubor s XML reprezentací zdrojového kódu
+
+--input=file soubor se vstupy pro samotnou interpretaci zadaného zdrojového kódu
+
+Alespoň jeden z parametrů (--source nebo --input) musí být vždy zadán. Pokud jeden z nich chybí, jsou chybějící data načítána ze standardního vstupu.)
+
 ## Popis
 Skript interpret.py má za úkol provést Instrukce zadané ve vstupním xml souboru, který je výstupem předchozího úkolu parse.php. Moji implementaci jsem pro přehlednost rozdělil do dvou souborů interpret.py a Instructions.py. Moje implementace obsahuje rozšíření NVI (aplikování objektově orientovaného programování), díky čemuž jsem dosáhl zvýšení přehlednosti kódu.
 
